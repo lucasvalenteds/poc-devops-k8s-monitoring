@@ -24,3 +24,11 @@ We want to display in a dashboard the number of requests made to each Kubernetes
 | Destroy | `make monitoring-down` |
 
 > ProTip: Running `./scripts/setup-grafana.sh grafana import` will create the data source
+
+## Preview
+
+![Prometheus query](./preview/prometheus-query.png)
+
+![Prometheus targets](./preview/prometheus-targets.png)
+
+![Grafana dashboard](./preview/grafana-dashboard.png)
