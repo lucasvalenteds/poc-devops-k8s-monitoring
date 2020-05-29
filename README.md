@@ -16,6 +16,8 @@ We want to display in a dashboard the number of requests made to each Kubernetes
 | Show logs | `make server-logs` |
 | Run tests | `make server-test` |
 
+> Running `SCALE=N make server-scale` will run N pods (e.g.: `SCALE=10 make server-scale` will run 10 pods)
+
 ### Prometheus and Grafana
 
 | Description | Command |
@@ -23,7 +25,7 @@ We want to display in a dashboard the number of requests made to each Kubernetes
 | Provision | `make monitoring-up` |
 | Destroy | `make monitoring-down` |
 
-> ProTip: Running `./scripts/setup-grafana.sh grafana import` will create the data source
+> Running `./scripts/setup-grafana.sh grafana import` will create the data source
 
 ## Preview
 
